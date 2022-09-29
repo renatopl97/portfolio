@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+    background: #252525;
+    color: white;
+    padding-top: 60px;
+    font-size: 16px;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: calc(100vw - 200px);
+    padding: 0 100px;
+    height: 60px;
+    background: #7C009F;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    display: inline ;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    margin: 0 5px;
+}
+
+
+
+/*Aqui foi colocado um efeito para quando o mouse estiver sobre os botões de navegação, deixando em negrito, alterando seu tamanho e sublinhando*/
+
+nav a:hover {
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: underline;
+}
+
+.logo {
+    width: 30%;
+    display: inline;
+    align-self: center;
+    text-align: start;
+}
+
+.botoes-topo {
+    width: 70%;
+    height: max-content;
+    display: inline;
+    text-align: end;
+}
+
+/* aqui foi definido que os elementos devem ser alinhadas horizontalmente*/
+.botoes-topo li {
+    display: inline-flex;
+    letter-spacing: 1px;
+}
+
+/*finaliza aqui a barra de navegação*/
+
+main {
+    padding: 0px 100px;
+}
+
+h2 {
+    text-decoration: none;
+    color:  #7C009F;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+p {
+    text-decoration: none;
+    color:  white;
+    font-size: 2em;
+    padding: 5px 0px;
+}
+
+b {
+    font-size: 1.2em;
+    color: #7C009F;
+    font-weight: bold;
+}
+
+.inicio, .sobre-mim, .conhecimentos, .certificados, .metas, .projetos, .contatos {
+    display: flex;
+    height:calc(100vh - 60px);
+}
+
+.texto-principal {
+    width: 50%;
+    align-self: center;
+}
+
+.texto-secundario p {
+    font-size: 1.25em;
+}
+
+.imagem-principal-direita {
+    width: 50%;
+    text-align: end;
+    align-self: center;
+    height: auto;
+}
+
+.imagem-principal-esquerda {
+    width: 50%;
+    text-align: start;
+    align-self: center;
+}
+
+.imagem-principal-direita img, .imagem-principal-esquerda img {
+    width: 80%;
+}
+
+.redes-sociais {
+    align-items: flex-end;
+    padding: 5px 0;
+}
+
+.redes-sociais ul {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais a {
+    width: 80px;
+    height: 80px;
+    text-align: start;
+    padding-right: 10px;
+}
+
+.redes-sociais img {
+    width: 50px;
+}
+
+.redes-sociais img:hover {
+    width: 60px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+	background: #7C009F;
+    height: 60px;
+}
+
+.copyright {
+    align-self: center;
+	color: #FFFFFF;
+	font-size: 13px;
+}
